@@ -9,8 +9,8 @@ async function search(username){
         }else{
             console.log(`\x1b[31m[-] ${urls[i].name}:\x1b[0m 404 NOT FOUND`); 
         }
-        console.log(`Found ${counter} sites with ${username} this username.`)
     }
+    console.log(`Found ${counter} sites with ${username} this username.`)
 }
 
 let username = process.argv[2]
