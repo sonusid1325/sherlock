@@ -1,14 +1,11 @@
 {
   "name": "sherlock",
   "module": "index.js",
-  "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "dependencies": {
-    "axios": "^1.7.9"
-  }
+  "type": "module"
 }
